@@ -5,7 +5,9 @@ let user = {
   years: 24,
 };
 
-// 아래에 코드를 작성해주세요 ~
+const{name, years}=user;
+const{name:Name, years:age,isAdmin=false}=user;
+
 
 alert(Name); // "지환"
 alert(age); // 24
